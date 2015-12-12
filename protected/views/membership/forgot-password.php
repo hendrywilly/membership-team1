@@ -17,11 +17,11 @@
                 <table style="width: 70%; margin: 0 auto;">
                     <tbody>
                         <tr>
-                            <th style="width: 100px;">
+                            <th style="width: 100px; vertical-align: top;">
                                 <label style="font-weight: bold;">Email *</label>
                             </th>
                             <td>
-                                <input id="email" class="input_full" name="email" type="text" value="<?php echo $this->fh_default_val('email'); ?>" />
+                                <input id="email" class="form-control" name="email" type="text" value="<?php echo $this->fh_default_val('email'); ?>" />
                                 
                                 <?php
                                 echo $this->fh_show_errors('email', $_view_validation_errors_);
